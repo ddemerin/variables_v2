@@ -10,6 +10,12 @@ namespace variables_v2
             var fullName = "Daniel Dean Demerin";
             var today = DateTime.Now;
 
+            Console.WriteLine($"{fullName} has had {numbersOfCupsOfCoffee} cups of coffee on {today}");
+
+            Console.WriteLine("What is your name?");
+            var user = Console.ReadLine();
+
+            Console.WriteLine($"Greetings {user}!");
         }
     }
 }
