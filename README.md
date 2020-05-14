@@ -1,25 +1,40 @@
-# Default Template for SDG .NET Course
+# Variables
 
-This is the default template for a simple .NET Core console app. This template has:
+## Explorer Mode
 
-- github integration
+Create a new sdg-console app that does the following.
 
-## To push to github
+Create a variable (use your best judgment for type) that stores the numberOfCupsOfCoffee that you drink every day
 
-To create and push your current code to github, use the task `create-github`.
+Create a variable (use your best judgment for type) called fullName and set it equal to your full name.
 
-How?
+Create a variable (use your best judgment for type) call today and set it equal to today's date.
 
-1. Open your command pallette by using (Mac) `shift + cmd + p` or (Windows) `shift + ctrl + p`
-2. Search and Select `Tasks: Run Task`
-3. Select `create-github` from the dropdown
+using your variables, numberOfCupsOfCoffee, fullNameand today, Console.WriteLine out all three on one line.
 
-This will create a new github repo, locally and up on github and also push your current code.
+Ask the user for their name and store it in a variable called 'user'.
 
-## To turn in your assignment:
+Print out a greeting to the user, using their name
 
-after you have created a github repo, completed your project and pushed your code, follow these instructions: https://suncoast.io/handbook/tools/assignment-turn-in/
+Ask the user to input two numbers
 
-## PROTIP:
+Get the numbers as Strings using Console.ReadLine
 
-When you are complete with the project and have turned it in to your instructor, update this read me with details about the assignment.
+Convert a String to a double using double.parse. Save the first double value in an operand1 variable and the second double value in an operand2 variable
+
+Add the operands and save in a sum variable
+Subtract the operands and save in a difference variable
+Divide the operands and save in a quotient variable
+Multiply the operands and save in a product variable
+Find the remainder when one operand is divided by the other and save in a remainder variable. See this page if you need to learn more about the modulo operator.
+
+print all the results to the screen in a meaningful way.
+
+## Adventure Mode
+
+Some logic to your program that prints our a special message for a user with the of Alice
+Use the type DateTime to represent today.
+
+## Epic Mode
+
+Move all of your logic to separate file and Call it from the Main method
